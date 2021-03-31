@@ -1,4 +1,4 @@
-![NekoBot](link)
+
 # NekoBot 
 
 A telegram bot to fetch lewds from nekos.life
@@ -8,7 +8,7 @@ A telegram bot to fetch lewds from nekos.life
     - sudo apt-get install python3
     - sudo apt-get install python3-pip
     - sudo apt-get install git
-    - git clone https://github.com/StrawHatLufy/NekoBot.git
+    - git clone https://github.com/Zer0-Tw0/NekoBot.git
     - cd NekoBot
     - pip3 install -r requirements.txt
     - mv sample-config.py config.py (or other editor)
