@@ -14,7 +14,7 @@ Tap on /help to know all my commands!
 """
     keyboard = [
         [
-            InlineKeyboardButton("Maintained by", url="t.me/Nekoid"),
+            InlineKeyboardButton("Maintained by", url="t.me/RikonAsw"),
             InlineKeyboardButton("Help", callback_data="help"),
         ]
     ]
