@@ -9,12 +9,12 @@ from Bot import LOGGER, dispatcher, updater
 @run_async
 def start(update, context):
     PM_START_TEXT = """
-Hewwo, Ohayoo >_<.
-Tap on /help to know all my commands!
+Ohayoo >_<.
+Ketik /help untuk menampilkan semua perintah!
 """
     keyboard = [
         [
-            InlineKeyboardButton("Maintained by", url="t.me/RikonAsw"),
+            InlineKeyboardButton("Maintained by", url="t.me/LoliKillers"),
             InlineKeyboardButton("Help", callback_data="help"),
         ]
     ]
