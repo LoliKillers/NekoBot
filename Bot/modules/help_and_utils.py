@@ -29,63 +29,65 @@ StartTime = time.time()
 
 
 help_text = """
-*NEKO* [.](https://telegra.ph/file/981f776678ac4980d39fd.png)
-- /neko: Sending a Random SFW Neko source Image.
-- /feet: Sending Random Anime Foot Images.
-- /yuri: Sends Random Yuri's source Image.
-- /trap: Sends a Random Trap source Image.
-- /futanari: Sends Random Futanari source Images.
-- /hololewd: Sends Random Holo Lewds.
-  - /lewdkemo: Sending Random Chemo Lewds.
-- /sologif: Send a Random Solo GIF.
-- /cumgif: Sending Random Cum GIFs.
-- /erokemo: Sending Random Ero-Chemo Images.
-- /lesbian: Sending Random Les Source Images.
-- /wallpaper: Send Random Wallpaper.
-- /lewdk: Sends Random Kitsune Lewds.
-- /ngif: Sending Random Neko GIFs.
-- /tickle: Sends a Random Tickle GIF.
-- /lewd: Send random (?)
-- /feed: Sends a Random Feeding GIF.
-- /eroyuri: Sending a Random Ero-Yuri source Image.
-- /eron: Sending Random Ero-Neko source images.
-- /cum: Sending Random Cum Images.
-- /bjgif: Sending Shuffle Worker GIF.
-- /bj: Sending Random Worker Source Image.
-- /nekonsfw: Sending a Random NSFW Neko source Image.
-- /solo: Send a Random Neko NSFW GIF.
-- /kemonomimi: Sending a Random KemonoMimi source Image.
-- /poke: Sends Random Poke GIFs.
-- /anal: Sending Random Anal GIFs.
-- /hentai: Sending Random Hentai source Images.
-- /erofeet: Sends a Random Ero-Feet source Image.
-- /holo: Sends a Random Holo source Image.
-- /tits: Sends 99 Random source Images.
-- /pussygif: Sending ...... Random.
-- /holoero: Sends a Random Ero-Holo source Image.
-- /pussy: Sends Random source Image.
-- /hentaigif: Sending Random Hentai GIFs.
-- /classic: Send Random Classic Hentai GIFs.
-- /kuni: Sending a random kuni Lick GIF.
-- /kiss: Send a Random Kiss GIF.
-- /femdom: Sends a Random Femdom source Image.
-- /cuddle: Sends a Random Cuddle GIF.
-- /erok: Sends a Random Ero-Kitsune source Image.
-- /foxgirl: Sending a Random FoxGirl source Image.
-- /titsgif: Sends 99 Random GIFs.
-- /ero: Sends a Random Ero source image.
-- /smug: Sends a Random Snob GIF.
-- /baka: Sends a random Baka Shout GIF.
-- /dva: Sends a Random D.VA source Image.
- 
-  * Pinging *
-- /ping: Displays signal strength / ping.
+⛦ *L.K Botz* ⛦
 
-  * AniList *
-- /anime: search for anime
-- /character: search character
-- /manga: search for manga
--/airing: get anime broadcast status
+⌬ *SFW & NSFW MENU*
+▹ /neko
+▹ /feet
+▹ /yuri
+▹ /trap
+▹ /futanari
+▹ /hololewd
+▹ /lewdkemo
+▹ /sologif
+▹ /cumgif
+▹ /erokemo
+▹ /lesbian
+▹ /wallpaper
+▹ /lewdk
+▹ /ngif
+▹ /tickle
+▹ /lewd
+▹ /feed
+▹ /eroyuri
+▹ /eron
+▹ /cum
+▹ /bjgif
+▹ /bj
+▹ /nekonsfw
+▹ /solo
+▹ /kemonomimi
+▹ /poke
+▹ /anal
+▹ /hentai
+▹ /erofeet
+▹ /holo
+▹ /tits
+▹ /pussygif
+▹ /holoero
+▹ /pussy
+▹ /hentaigif
+▹ /classic
+▹ /kuni
+▹ /kiss
+▹ /femdom
+▹ /cuddle
+▹ /erok
+▹ /foxgirl
+▹ /titsgif
+▹ /ero
+▹ /smug
+▹ /baka
+▹ /dva
+ 
+ ⌬ *PINGING*
+▹ /ping
+
+ ⌬ *ANILIST*
+▹ /anime
+▹ /character
+▹ /manga
+▹ /airing
  """
 
 
@@ -106,13 +108,11 @@ def help(update, context):
             disable_web_page_preview=False,
         )
     else:
-        update.effective_message.reply_text("Everything is in pm dear")
+        update.effective_message.reply_text("Semuanya ada di pm sayang")
 
-
-# Kanged from PaperPlane Extended userbot
 def speed_convert(size):
     """
-    Hey man, you can't read the bytes?
+    Anda tidak bisa membaca byte?
     """
     power = 2 ** 10
     zero = 0
