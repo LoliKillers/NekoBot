@@ -38,7 +38,7 @@ LOGGER.info("\033[0;34mNeko \033[0;32mis \033[0;36mnow \033[0;31monline\n\033[1;
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     LOGGER.error(
-        "You MUST have python version at least 3.6!  Several features depend on this.  Bot stop."
+        "Anda harus memiliki versi python setidaknya 3.6! Beberapa fitur bergantung pada ini. Bot berhenti."
     )
     quit(1)
 
